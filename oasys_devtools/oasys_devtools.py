@@ -27,7 +27,7 @@ parser.add_argument('--cam', metavar='user:pass@ipaddress', type=str,
 parser.add_argument('--area', metavar='N', type=int, nargs=4,
                     help='Area restriction')
 
-parser.add_argument('--id', metavar='uuid4', type=uuid.uuid4,
+parser.add_argument('--id', metavar='uuid4', type=str,
                     help='Instance UUID')
 
 parser.add_argument('--token', metavar='token', type=str,
